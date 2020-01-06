@@ -1,0 +1,127 @@
+.fa {
+    padding: 20px;
+    font-size: 60px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  
+  
+}
+.fa-hover {
+  opacity:0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  font-size: 60px;
+}
+.fa-instagram {
+  background: #6dc993;
+  color:white;
+}
+.fa-envelope {
+  background: #c93535;
+  color:white;
+}
+.fa-github {
+  background: #6f6b64;
+  color:white;
+}
+body {
+  position:relative; 
+}
+.portPics {
+  width:30%;
+  
+  padding:50px;
+  text-align:center;
+} 
+
+#about {
+  padding-top:50px;
+  height:100vh;
+  background-color:#86a3c3;
+
+}
+#aboutText {
+  padding-top:50px
+}
+
+#projects {
+  padding-top:50px;
+  height:100vh;
+  background-color:#b6cec7;
+  text-align:center;
+}
+#projects img {
+  max-width:300px;
+  max-height:300px;
+}
+#contact {
+  padding-top:50px;
+  height:100vh;
+  background-color:#d8e0bb;
+  text-align:center;
+  
+}
+p{
+  padding:50px;
+  font-size:20px
+}
+img {
+  max-width:100%;
+  height:auto;
+}
+
+.text-center {
+  text-align: center;
+}
+#myMug {
+  padding:50px;
+  border-radius:50%;
+}
+h1 {
+  display:inline;
+  border-style:none none solid solid;
+  border-width:.5px;
+  border-color:grey;
+ 
+}
+.headers {
+  
+  
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* javascript stuff*/
+
+ul.nav {
+    background:#fff;
+}
+
+ul.nav li a {
+    text-decoration:none;
+
+}
+
+ul.navigation li a.on
+{
+    background:yellow;
+    padding:2px 6px;
+}
